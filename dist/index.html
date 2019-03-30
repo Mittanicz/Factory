@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factory</title>
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#0083a4">
+    <meta name="audience" content="all" />
+    <meta name="Revisit" content="After 14 days" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="l-header">
+        <span class="l-header__logo"><img src="./images/logo.svg" alt="Factory logo" height="33px"></span>
+        <nav class="m-main" role="navigation" aria-labelledby="main navigation" aria-expanded="false">
+            <span class="m-main--trigger" id="navShow"><i class="icon-hamburger"></i>Menu</span>
+            <ul class="m-main__list" id="mySidenav">
+                <li class="m-main__item m-main__item--trigger" id="navHide"><i class="icon-close"></i></li>
+                <li class="m-main__item">
+                    <a href="#home" class="m-main__link" id="home-menu">Home</a>
+                </li>
+                <li class="m-main__item">
+                    <a href="#about" class="m-main__link" id="about-menu">About</a>
+                </li>
+                <li class="m-main__item">
+                    <a href="#services" class="m-main__link" id="services-menu">Services</a>
+                </li>
+                <li class="m-main__item">
+                    <a href="#skills" class="m-main__link" id="skills-menu">Skill</a>
+                </li>
+                <li class="m-main__item">
+                    <a href="#pricing" class="m-main__link" id="pricing-menu">Pricing</a>
+                </li>
+                <li class="m-main__item">
+                    <a href="#contact" class="m-main__link" id="contact-menu">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="l-main" id="main" role="main">
+        <section class="hero" id="home" aria-labelledby="home-region">
+            <div class="hero__text">
+                <h1 id="home-region">Hi, Iam Factory<br>
+                    <span class="hero__subtitle">new responsive template</span>
+                </h1>
+                <a href="#about" class="c-btn" id="hero-more" role="button" aria-pressed="false">Show more</a>
+            </div>
+        </section>
+        <section class="c-section" id="about" role="region" aria-labelledby="about-us-region">
+            <div class="l-main-row">
+                <h1 class="heading" id="about-us-region">About us</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                <ul class="grid features">
+                    <li class="col-3_md-6_sm-12 features__item">
+                        <div class="features__icon">
+                              <i class="icon-edit"></i>
+                        </div>
+                        <h2>Web developmet</h2>
+                        <p>Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </li>
+                    <li class="col-3_md-6_sm-12 features__item">
+                        <div class="features__icon">
+                            <i class="icon-support"></i>
+                        </div>
+                        <h2>Digital media</h2>
+                        <p>Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </li>
+                    <li class="col-3_md-6_sm-12 features__item">
+                        <div class="features__icon">
+                            <i class="icon-camera"></i>
+                        </div>
+                        <h2>Photography</h2>
+                        <p>Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </li>
+                    <li class="col-3_md-6_sm-12 features__item">
+                        <div class="features__icon">
+                            <i class="icon-chart"></i>
+                        </div>
+                        <h2>Online media</h2>
+                        <p>Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="c-section c-section--dark" id="services" role="region" aria-labelledby="services-region">
+            <div class="l-main-row">
+                <h1 class="heading" id="services-region">Services</h1>
+                <p class="mb-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                <ul class="grid c-services">
+                    <li class="col-4_md-6_sm-12 ">
+                        <div class="c-services__item">
+                            <span class="c-services__icon">
+                                <i class="icon-brush"></i>
+                            </span>
+                            <h2>Web Desing</h2>
+                            <p class="c-services__text">Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </li>
+                    <li class="col-4_md-6_sm-12">
+                        <div class="c-services__item">
+                            <span class="c-services__icon">
+                                <i class="icon-camera"></i>
+                            </span>
+                            <h2>Photography</h2>
+                            <p class="c-services__text">Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </li>
+                    <li class="col-4_md-6_sm-12">
+                        <div class="c-services__item">
+                            <span class="c-services__icon">
+                                <i class="icon-edit"></i>
+                            </span>
+                            <h2>Web development</h2>
+                            <p class="c-services__text">Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </li>
+                    <li class="col-4_md-6_sm-12">
+                        <div class="c-services__item">
+                            <span class="c-services__icon">
+                                <i class="icon-support"></i>
+                            </span>
+                            <h2>Online marketing</h2>
+                            <p class="c-services__text">Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </li>
+                    <li class="col-4_md-6_sm-12">
+                        <div class="c-services__item">
+                            <span class="c-services__icon">
+                                <i class="icon-line-chart"></i>
+                            </span>
+                            <h2>Digital media</h2>
+                            <p class="c-services__text">Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </li>
+                    <li class="col-4_md-6_sm-12">
+                        <div class="c-services__item">
+                            <span class="c-services__icon">
+                                <i class="icon-anchor"></i>
+                            </span>
+                            <h2>Support</h2>
+                            <p class="c-services__text">Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="c-setion" id="skills" role="region" aria-labelledby="skills-region">
+            <div class="grid">
+                <div class="col-6_sm-12 pb-0">
+                    <div class="c-skill__image"></div>
+                </div>
+                <div class="col-6_sm-12">
+                    <div class="c-skill__content">
+                            <h1 class="heading" aria-labelledby="skills-region">Our Skills</h1>
+                            <ul class="c-skill__list">
+                                <li class="c-skill__item">
+                                    <span class="c-skill__label">Web development</span>
+                                    <span class="c-skill__progress" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="c-skill__progress-value" style="width: 92%">
+                                            <span class="c-skill__progress-text">92%</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li class="c-skill__item">
+                                    <span class="c-skill__label">Online marketing</span>
+                                    <span class="c-skill__progress" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="c-skill__progress-value" style="width: 56%">
+                                            <span class="c-skill__progress-text">56%</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li class="c-skill__item">
+                                    <span class="c-skill__label">Digital media</span>
+                                    <span class="c-skill__progress" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="c-skill__progress-value" style="width: 71%">
+                                            <span class="c-skill__progress-text">71%</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li class="c-skill__item">
+                                    <span class="c-skill__label">Photogpraphy</span>
+                                    <span class="c-skill__progress" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="c-skill__progress-value" style="width: 78%">
+                                            <span class="c-skill__progress-text">78%</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li class="c-skill__item">
+                                    <span class="c-skill__label">Creative desing</span>
+                                    <span class="c-skill__progress" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="c-skill__progress-value" style="width: 87%">
+                                            <span class="c-skill__progress-text">87%</span>
+                                        </span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="c-section" id="pricing" role="region" aria-labelledby="pricing-region">
+            <div class="l-main-row">
+                <h1 class="heading" aria-labelledby="pricing-region">Pricing</h1>
+                <div class="grid">
+                    <div class="col-4_sm-12">
+                        <table class="c-pricing">
+                            <th>
+                                Basic<span class="c-pricing__subtitle">The Best to start</span>
+                            </th>
+                            <tr>
+                                <td class="c-pricing__price">
+                                    $9.99 /<small>monthly</small>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3600 keywords</td>
+                            </tr>
+                            <tr>
+                                <td>25 social accounts</td>
+                            </tr>
+                            <tr>
+                                <td>21 Analytic campaings</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="" class="c-btn c-btn--secondary" role="button" aria-pressed="false">Buy now!</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-4_sm-12">
+                        <table class="c-pricing">
+                            <th>
+                                Advanced<span class="c-pricing__subtitle">The Best to start</span>
+                            </th>
+                            <tr>
+                                <td class="c-pricing__price c-pricing__price--tier2">
+                                    $39.99 /<small>monthly</small>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4600 keywords</td>
+                            </tr>
+                            <tr>
+                                <td>31 social accounts</td>
+                            </tr>
+                            <tr>
+                                <td>27 Analytic campaings</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#" class="c-btn c-btn--secondary" role="button" aria-pressed="false">Buy now!</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-4_sm-12">
+                        <table class="c-pricing">
+                            <th>
+                                Premium<span class="c-pricing__subtitle">The Best to start</span>
+                            </th>
+                            <tr>
+                                <td class="c-pricing__price c-pricing__price--tier3">
+                                    $79.99 /<small>monthly</small>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8700 keywords</td>
+                            </tr>
+                            <tr>
+                                <td>35 social accounts</td>
+                            </tr>
+                            <tr>
+                                <td>36 Analytic campaings</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#" class="c-btn c-btn--secondary" role="button" aria-pressed="false">Buy now!</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="c-section" id="contact" role="region" aria-labelledby="contact-region">
+            <div class="l-main-row">
+                <div class="grid c-contact">
+                    <div class="col-6_sm-12">
+                        <h2 aria-labelledby="contact-region">Contact info</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majori have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a pas of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua.</p>
+                        <ul class="c-contact__list">
+                            <li class="c-contact__item">
+                                <div class="c-contat__icon">
+                                    <i class="icon-location"></i>
+                                </div>
+                                <div class="c-contact__text">
+                                    <h3 class="c-contact__heading">Adress</h4>
+                                    <span>Freedom Way, Jersey City, NJ 07305, USA</span>
+                                </div>
+                            </li>
+                            <li class="c-contact__item">
+                                <div class="c-contat__icon">
+                                    <i class="icon-phone"></i>
+                                </div>
+                                <div class="c-contact__text">
+                                    <h3 class="c-contact__heading">Phone</h4>
+                                    <span>+88 01911854378</span>
+                                </div>
+                            </li>
+                            <li class="c-contact__item">
+                                <div class="c-contat__icon">
+                                    <i class="icon-envelope"></i>
+                                </div>
+                                <div class="c-contact__text">
+                                    <h3 class="c-contact__heading">E-mail</h4>
+                                    <span>sample@sample.com</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6_sm-12">
+                        <h2>Out location</h2>
+                            <iframe class="c-contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83427.8386512739!2d16.545681061423295!3d49.19828389344618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47129467322d70a3%3A0x51ba61f00c81d0ea!2sVila+Tugendhat!5e0!3m2!1scs!2scz!4v1550676514171" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-12">
+                        <fieldset>
+                            <legend class="c-legend">Send message</legend>
+                            <div class="grid">
+                                <div class="col-4_sm-12">
+                                    <div class="c-form-row">
+                                        <input type="text" class="c-input">
+                                        <label class="c-label" for="" >First name</label>
+                                    </div>
+                                </div>
+                                <div class="col-4_sm-12">
+                                    <div class="c-form-row">
+                                        <input type="text"class="c-input">
+                                        <label class="c-label" for="">Last name</label>
+                                    </div>
+                                </div>
+                                <div class="col-4_sm-12">
+                                    <div class="c-form-row">
+                                        <input type="email" class="c-input">
+                                        <label class="c-label" for="">Your e-mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="c-form-row">
+                                        <input type="email" class="c-input">
+                                        <label class="c-label" for="" >Subjet</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="c-form-row">
+                                        <textarea name="" id="" class="c-input" ></textarea>
+                                        <label class="c-label" for="">Message</label>
+                                    </div>
+                                    <button class="c-btn c-btn--secondary" type="submit" role="button" aria-pressed="false">Submit</button>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer role="footer">
+        <div class="grid-center l-footer">
+            <div class="col-12">
+                <h1 class="heading">Factory</h1>
+                <div class="l-footer__icons">
+                    <i class="icon-facebook"></i>
+                    <i class="icon-twitter"></i>
+                    <i class="icon-instagram"></i>
+                    <i class="icon-github"></i>
+                </div>
+                <span>Create with love. Demo Images by <a class="l-footer__link" href="https://unsplash.com/">UNSPLASH</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
